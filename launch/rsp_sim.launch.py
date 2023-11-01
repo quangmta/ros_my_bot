@@ -63,7 +63,7 @@ def generate_launch_description():
     # Launch them all!
     return LaunchDescription([
         rsp,
-        # joystick,
+        joystick,
         gazebo,
         spawn_entity,
         diff_drive_spawner,
